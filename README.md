@@ -36,7 +36,12 @@ The following document outlines the structure and functionality of the Azure Vis
 - Integration of a speech synthesizer to vocalize image descriptions, confidence levels, and image tags returned from Azure AI Vision.
 
 ## Text Recognition
-![Text Based Image From Unsplash](./MaddVisionAI/Resources/Images/unsplash_img.png "Text Based Image From Unsplash") ![Image Text Recognition Using VisionAI](./MaddVisionAI/Resources/Images/img_recognize.png "Image Text Recognition Using VisionAI")
+<table>
+  <tr>
+    <td><img src="./MaddVisionAI/Resources/Images/unsplash_img.png" alt="Text Based Image From Unsplash" width="400" /></td>
+    <td><img src="./MaddVisionAI/Resources/Images/img_recognize.png" alt="Image Text Recognition Using VisionAI" width="400" /></td>
+  </tr>
+</table>
 
 - Text recognition is a feature that can be enabled/disabled in the settings page.
 - When enabled, the clipboard button on the main UI indicates that text has been detected in the image.
