@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaddVisionAI.MainPage">
+
+    <Shell.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="TheTitle" Text="" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+            <Button x:Name="SettingsButton" Clicked="SettingsButton_Clicked" FontSize="Large" FontFamily="FA-S" Text="{StaticResource IconGear}" HorizontalOptions="EndAndExpand" HeightRequest="50" WidthRequest="70"/>
+        </StackLayout>
+
+    </Shell.TitleView>
+
+
+    <Grid x:Name="TheGrid" RowDefinitions="0.6*, 0.2*, Auto">
+
+        <Image x:Name="TheImage" HorizontalOptions="Fill" VerticalOptions="Fill" Margin="10" Aspect="AspectFit"/>
+  
+        <ActivityIndicator x:Name="TheActivityIndicator" Margin="10" Grid.Row="1" HorizontalOptions="Center" Scale="0.5" />
+
+        <ScrollView Grid.Row="1" VerticalOptions="Start">
+            <Label x:Name="TheResults" PropertyChanged="TheResults_PropertyChanged" FontSize="16" HorizontalTextAlignment="Center" Margin="10"/>
+        </ScrollView>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center">
+            <Button x:Name="WebImageButton" Clicked="WebImageButton_Clicked" Margin="10" WidthRequest="70" FontFamily="FA-S" Text="{StaticResource IconRandom}" FontSize="Large"/>
+            <Button x:Name="ImageButton" Clicked="ImageButton_Clicked" Margin="10" WidthRequest="70" FontFamily="FA-S" Text="{StaticResource IconFileImage}" FontSize="Large"/>
+            <Button x:Name="CameraButton" Clicked="CameraButton_Clicked" Margin="10" WidthRequest="70" FontFamily="FA-S" Text="{StaticResource IconCamera}" FontSize="Large"/>
+            <Button x:Name="TextButton" Clicked="TextButton_Clicked" Margin="10" WidthRequest="70" FontFamily="FA-S" Text="{StaticResource IconClipboardQuestion}" FontSize="Large"
+                    IsEnabled="False" IsVisible="True" BackgroundColor="Grey" />
+
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
+

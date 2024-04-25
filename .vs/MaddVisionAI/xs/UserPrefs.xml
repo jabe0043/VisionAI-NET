@@ -1,0 +1,45 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{FFC8B731-0CBB-4F01-95C9-A98CD6B6C28B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MaddVisionAI/Platforms/Android/MainApplication.cs">
+    <Files>
+      <File FileName="MaddVisionAI/MainPage.xaml.cs" Line="3" Column="1" />
+      <File FileName="MaddVisionAI/MainPage.xaml" />
+      <File FileName="MaddVisionAI/MauiProgram.cs" Line="2" Column="1" />
+      <File FileName="MaddVisionAI/Resources/Icons/Icons.xaml" />
+      <File FileName="MaddVisionAI/App.xaml" />
+      <File FileName="MaddVisionAI/App.xaml.cs" Line="2" Column="1" />
+      <File FileName="MaddVisionAI/SettingsPage.xaml.cs" />
+      <File FileName="MaddVisionAI/SettingsPage.xaml" />
+      <File FileName="MaddVisionAI/AppShell.xaml.cs" Line="2" Column="1" />
+      <File FileName="MaddVisionAI/Platforms/MacCatalyst/AppDelegate.cs" Line="2" Column="1" />
+      <File FileName="MaddVisionAI/Platforms/MacCatalyst/Program.cs" Line="2" Column="1" />
+      <File FileName="MaddVisionAI/Platforms/Android/MainApplication.cs" Line="2" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MaddVisionAI" expanded="True">
+            <Node name="MaddVisionAI" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True">
+                  <Node name="MainApplication.cs" selected="True" />
+                </Node>
+                <Node name="MacCatalyst" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MaddVisionAI PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaddVisionAI.SettingsPage"
+             Title="SettingsPage">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto,*">
+
+            <StackLayout Margin="0,10" HorizontalOptions="Center" VerticalOptions="Center">
+                <Border HorizontalOptions="Center" Padding="10" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                        <Label x:Name="AppInformation" Text="Application Information" Margin="0,0,0,10"
+                           FontSize="Default" FontAttributes="Bold" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                        <Button x:Name="AppSettingsButton" Text="Application Settings" Clicked="AppSettingsButton_Clicked"
+                            Margin="0,0,0,10" HorizontalOptions="Fill" />
+                        <Label Text="Recognize Text" Margin="2,0" VerticalOptions="Center" HorizontalOptions="Center" />
+                        <Switch x:Name="RecognizeTextSwitch" Toggled="RecognizeTextSwitch_Toggled" Margin="2,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        <Label Text="Speech" Margin="2,0" VerticalOptions="Center" HorizontalOptions="Center" />
+                        <Switch x:Name="SpeechSwitch" Toggled="SpeechSwitch_Toggled" Margin="2,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Border>
+            </StackLayout>
+
+
+            <StackLayout Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Start">
+                <Border HorizontalOptions="Center" Padding="10">
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="Device Information" HorizontalOptions="CenterAndExpand" FontSize="Default" FontAttributes="Bold"  Margin="0,0,0,10" />
+                        <Label x:Name="DeviceInformation" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontSize="Default"  />
+                    </StackLayout>
+                </Border>
+            </StackLayout>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

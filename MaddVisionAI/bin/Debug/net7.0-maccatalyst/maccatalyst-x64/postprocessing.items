@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="MaddVisionAI.app/Contents/MacOS/MaddVisionAI">
+      <BCSymbolMapName>MaddVisionAI.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>MaddVisionAI.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/jadjaber/Projects/MaddVisionAI/MaddVisionAI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>MaddVisionAI.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/jadjaber/Projects/MaddVisionAI/MaddVisionAI</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
