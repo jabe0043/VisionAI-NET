@@ -61,10 +61,14 @@
 	  <None Remove="Resources\Fonts\fa-regular-400.ttf" />
 	  <None Remove="Resources\Fonts\fa-solid-900.ttf" />
 	  <None Remove="Resources\Icons\" />
+	  <None Remove="Resources\Images\unsplash_img.png" />
+	  <None Remove="Resources\Images\img_recognize.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Fonts\fa-regular-400.ttf" />
 	  <BundleResource Include="Resources\Fonts\fa-solid-900.ttf" />
+	  <BundleResource Include="Resources\Images\unsplash_img.png" />
+	  <BundleResource Include="Resources\Images\img_recognize.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Resources\Icons\" />
