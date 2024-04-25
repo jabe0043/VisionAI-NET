@@ -9,10 +9,6 @@ The following document outlines the structure and functionality of the Azure Vis
 - `Azure.AI.Vision.ImageAnalysis`: Package for integrating with Azure AI Vision API.
 - `PureWeen.Maui.FixesAndWorkarounds`: Package containing fixes and workarounds for .NET Maui.
 
-![Image with text](./MaddVisionAI/Resources/Images/unsplash_img.png "Text Based Image From Unsplash")
-![Image with text](./MaddVisionAI/Resources/Images/img_recognize.png "Image Text Recognition Using VisionAI")
-
-
 ## Application Features
 
 ### 1. Connection to Azure AI Service Vision API
@@ -40,9 +36,10 @@ The following document outlines the structure and functionality of the Azure Vis
 - Integration of a speech synthesizer to vocalize image descriptions, confidence levels, and image tags returned from Azure AI Vision.
 
 ## Text Recognition
+![Text Based Image From Unsplash](./MaddVisionAI/Resources/Images/unsplash_img.png "Text Based Image From Unsplash") ![Image Text Recognition Using VisionAI](./MaddVisionAI/Resources/Images/img_recognize.png "Image Text Recognition Using VisionAI")
 
 - Text recognition is a feature that can be enabled/disabled in the settings page.
-- When enabled, a button on the main UI indicates that text has been detected in the image.
+- When enabled, the clipboard button on the main UI indicates that text has been detected in the image.
 - Pressing this button opens a dialog displaying the recognized text from the image.
 - The recognized text is copied to the device clipboard for easy transfer to other applications.
 - The button is disabled and has a different background color when an image with no recognized text is returned from Azure AI Vision.
