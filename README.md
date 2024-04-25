@@ -9,8 +9,8 @@ The following document outlines the structure and functionality of the Azure Vis
 - `Azure.AI.Vision.ImageAnalysis`: Package for integrating with Azure AI Vision API.
 - `PureWeen.Maui.FixesAndWorkarounds`: Package containing fixes and workarounds for .NET Maui.
 
-
-![Image with text](./MaddVisionAI/Resources/Images/img_recognize.png "Text Based Image From Unsplash")
+![Image with text](./MaddVisionAI/Resources/Images/unsplash_img.png "Text Based Image From Unsplash")
+![Image with text](./MaddVisionAI/Resources/Images/img_recognize.png "Image Text Recognition Using VisionAI")
 
 
 ## Application Features
