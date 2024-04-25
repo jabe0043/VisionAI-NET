@@ -43,11 +43,12 @@ The following document outlines the structure and functionality of the Azure Vis
   </tr>
 </table>
 
-- Text recognition is a feature that can be enabled/disabled in the settings page.
-- When enabled, the clipboard button on the main UI indicates that text has been detected in the image.
-- Pressing this button opens a dialog displaying the recognized text from the image.
-- The recognized text is copied to the device clipboard for easy transfer to other applications.
+- The text recognition feature can be enabled/disabled in the settings page.
+- When enabled, the clipboard button on the main UI indicates that text has been detected in the image (button becomes red).
+- Pressing the button opens a dialog displaying the recognized text from the image.
+- The recognized text is automatically copied to the device clipboard for easy transfer to other applications.
 - The button is disabled and has a different background color when an image with no recognized text is returned from Azure AI Vision.
+**_The functionality described above is consistent across all three image sources (web-server, local image, or camera image)._**
 
 ## Settings Page
 
