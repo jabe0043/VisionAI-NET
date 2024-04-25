@@ -2,7 +2,7 @@
 
 ## Description
 
-The following document outlines the structure and functionality of the Azure Vision AI app. The application is built using .NET Maui and targets Android, iOS, and macOS platforms. It utilizes Azure AI Services (Vision API) for image processing (text extraction and recognition). The application also integrates camera access, web image server access, and local image access as image sources. Additionally, I have integrated a cross-platform speech synthesizer to speak image descriptions, confidence levels, and image tags returned from Azure AI Vision.
+The following document outlines the structure and functionality of the Azure Vision AI app. The application is built using .NET Maui and targets Android, iOS, and macOS platforms. It utilizes Azure AI Services (Vision API) for image processing (text extraction and recognition). The application also integrates camera access, web image server access, and local image access as image sources. Additionally, I have integrated a cross-platform speech synthesizer to speak image descriptions, confidence levels, and image tags returned from Azure AI Vision. **The source code is located in the MaddVisionAI directory.**
 
 ## NuGet Packages
 
